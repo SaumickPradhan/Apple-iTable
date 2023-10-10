@@ -1,0 +1,890 @@
+.app {
+    display: grid;
+    grid-template-columns: 0.8fr repeat(2, 1fr) 0.8fr 1fr;
+    grid-template-rows: 1.2fr repeat(3, 1fr) 0.9fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+    font-size: medium;
+    
+    
+  }
+  
+  .app.black-background {
+    background-color: black;
+    color: white; /* Change text color for better visibility on black background */
+  }
+  
+  
+  .app-icons {
+    display: flex;
+    max-width: fit-content;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px; /* Adjust padding as needed */
+    background-color: #f0f0f0; /* Background color around the icons */
+    min-height: 500px;
+  }
+  
+  .app-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 5px; /* Adjust spacing between icons */
+  }
+  
+  .app-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  .app-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .app-label {
+    text-align: center; /* Center the label text */
+    font-weight: bold;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+    font-size: medium;  }
+  
+  
+  
+  .top-horizontal-component {
+  
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+    font-size: medium;
+        height: 80px;
+  } 
+  
+  .notification {
+    flex-grow: 1;
+    margin-right: 10px;
+    width: 20px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+    font-size: medium;
+  }
+  
+  .notification-line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px; /* Adjust the margin between lines as needed */
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+    font-size: medium;
+  }
+  .notification:first-child {
+    animation: fadeOut 3s linear forwards; /* Add animation for the first notification */
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+    font-size: medium;
+  }
+  
+  .notification-text {
+    font-size: 20px; /* Adjust the font size as needed */
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+  }
+  
+  .notification-icon{
+    width: 50px; /* Adjust the width of the icon */
+    height: 50px; /* Adjust the height of the icon */
+    margin-right: 10px; /* Adjust the margin between the icon and text */
+    border-radius: 50%;
+  }
+  
+  
+  
+  .parent {
+    display: grid;
+    grid-template-columns: 0.8fr repeat(2, 1fr) repeat(2, 0.8fr);
+    grid-template-rows: 1.2fr repeat(3, 1fr) 0.9fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 1200px;
+    background-color: #91d6eb;
+    border-radius: 32px;
+    border: 10px solid #000; 
+    margin-left: 140px;
+    margin-bottom: 75px;
+    margin-top: 20px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+    font-size: medium;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 6 / 2; 
+      background-color: rgba(86, 83, 89, 0.7);
+       border-radius: 40px;
+       width: 200px;
+       height: 588px;
+     margin-top: 2%;
+     margin-bottom: 3%;
+  padding-left: 4px;
+  margin-left: 2px;
+  font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+  font-size: medium;
+
+    }
+    .div2 { grid-area: 1 / 2 / 2 / 5; 
+      /* background-color: #e006f4; */
+      width: 768px;
+font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+    font-size: medium;
+      }
+    .div3 { grid-area: 1 / 5 / 6 / 6; 
+      padding-left: 15px;
+      font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+      font-size: medium;
+            /* background-color: #dff20a; */
+      margin-right: 8px;
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+    .div4 { grid-area: 2 / 2 / 5 / 4; 
+      /* background-color: #36c250; */
+      font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+      font-size: medium;
+
+    }
+    .div5 { grid-area: 2 / 4 / 5 / 5; 
+      /* background-color: #c23693; */
+      font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+    font-size: medium;
+    }
+  
+  
+    .div6 { grid-area: 5 / 2 / 6 / 5; 
+            display: grid;
+            grid-template-columns:minmax(100px, 0.4fr) minmax(100px, 0.55fr);
+            align-items: center;
+            /* background-color: #c23636; */
+            font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+    font-size: medium;
+      }
+    
+    
+  
+  
+  /* Create circles in div1 */
+  .div1 .circle {
+    width: 60px;
+    height: 60px;
+    /* background-color: #3498db; */
+    border-radius: 50%;
+    padding: 60px;
+    margin: 10px auto;
+    overflow: hidden;
+    text-align: center; /* Center text and emojis horizontally */
+    position: relative; /* Enable positioning of the battery and connection emojis */
+  }
+  
+  .status {
+    display: flex; 
+    align-items: flex-end; 
+    justify-content: center; 
+    margin-top: 40px; 
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+    font-size: medium;
+  }
+  
+  /*  */
+  
+  .battery {
+    font-weight: bold; 
+    font-size: 14px; 
+    color: #fff; 
+    margin-right: 5px; 
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+    font-size: medium;
+    
+  }
+  
+  .connection {
+    font-size: 20px; 
+    
+    color: #00aaff; 
+  }
+  
+  .div1 .circle img {
+    width: 130px; 
+    height: 130px; 
+    display: block; 
+    border-radius: 50%;
+    margin: -40px; 
+  }
+  
+  .div2-message {
+    background-color: rgba(86, 83, 89, 0.7);
+    
+    border-radius: 20px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+    font-size: medium;
+    margin-top: 5px;
+    padding: 20px; /* DO NOT CHANGE */
+    font-size: 100px;
+    font-weight: bold;
+    animation: slideIn 0.5s ease-in-out;
+  
+    @keyframes slideIn {
+      0% {
+        transform: translateY(-100%);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+  }
+  
+  .div3 .vertical-section {
+    background-color: rgba(86, 83, 89, 0.7);
+    color: white;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+    font-size: medium;
+    text-align: center;
+    padding-left: 20px;
+    font-size: 16px;
+    height: 520px;
+    border-radius: 20px;
+    font-style: white;
+    margin-bottom: 1px;
+    margin-top: 50px;
+    
+  }
+  
+  .div3 .welcome-message {
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+    font-size: medium;
+    background-color: rgba(86, 83, 89, 0.7);
+    color: #fff; /* Text color */
+    padding: 2px; 
+    font-size:18px; 
+    text-align: center; 
+   
+    margin-top: 30px fixed;
+    margin-bottom: -35px ;
+    border-radius: 5px; 
+    margin-right: 8px;
+  }
+  
+  .div3 .info{
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+    font-size: 15px;
+    background-color: rgba(86, 83, 89, 0.7);
+    color: #fff; 
+    padding: 0px; 
+ 
+    text-align: center; 
+   
+    margin-top: 40px ;
+    margin-bottom: -50px ;
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 8px;
+
+  }
+  
+  .div4 .circle-pair {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .div4 .circle {
+    width: 140px;
+      height: 140px;
+      background-color: #e67e22;
+      border-radius: 50%;
+  
+  }
+  
+  .div4 .circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  
+  /* Style the day schedule in div5 */
+  .div5 .day-schedule {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+   
+  }
+
+
+  .div5 .day-schedule-cal{
+    border-radius: 10px;
+    max-width: 200px;
+    max-height: 350px;
+    margin-bottom: -40px;
+  }
+  
+  /* Style the buttons in div6 */
+  .div6 .off-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 15px 20px; /* Increase button size */
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+  }
+  
+  .div6 .off-button:hover, .div6 .off-button:active {
+    background-color: #e74c3c;
+    
+  }
+  
+  .div6 .user-profile-button {
+  position: relative; /* Create a positioning context for nested buttons */
+    background-color: #3498db;
+    color: white;
+    padding: 15px 20px; /* Increase button size */
+    border: none;
+    border-radius: 10px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+    font-size: 20px;
+    
+  }
+  
+  .nested-buttons {
+    display: none;
+    position: absolute;
+    top: 3px;
+    left: 50px;
+    background-color: #3498db;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    
+  }
+  
+  .small-button {
+    margin: 5px 5; /* Adjust the margin to increase the distance between buttons */
+    padding: 8px 5px;
+    background-color: #3498db;
+    color: white;
+    border: blueviolet;
+    border-radius: 5px;
+    cursor:grab;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+  
+  }
+  
+  .user-profile-button:hover .nested-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  
+
+  .image-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  /* Styles for the popup overlay */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; /* Ensure it's on top of other content */
+  }
+  .timer-popup {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: 500px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+  }
+  
+  .timer-popup h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+  }
+  
+  .timer-popup p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #666;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+  }
+  
+  .timer-popup button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.2s;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+  }
+  
+  .timer-popup button:hover {
+    background-color: #3498db;
+  }
+  
+  .timer-popup p {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+  }
+  
+  .timer-popup p span {
+    font-weight: bold;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+  }
+  
+  
+  .timer-popup p:empty::before {
+    content: "Time is up!";
+    font-weight: bold;
+    color: #FF0000;
+  }
+  
+  .timer-popup button:last-child {
+    margin-right: 0;
+  }
+  
+  
+  
+  .notes-popup {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font: black;
+    max-width: 400px;
+    margin-top: -30px;
+    margin-left: -250px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+  }
+  
+  .notes-popup h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+    background-color: #ffd000;
+  }
+  
+  .notes-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+  
+  }
+  
+  .note-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+  }
+  
+  .note-item input[type='checkbox'] {
+    margin-right: 10px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+  }
+  
+  .add-note input[type='text'] {
+    padding: 5px;
+    width: 60%;
+    margin-right: 10px;
+    color: black;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+  }
+  
+  /* Add color to the task text */
+  .note-item label {
+    color: #333;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+  }
+  
+  
+  .add-note button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    color: black;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+  }
+  
+  .notes-popup button:last-child {
+    background-color: #ffd000;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+  }
+  
+  
+  .scroll-bar {
+    width: 100px; /* Occupy the full width of the container */
+    background-color: #22dc01; /* Background color of the slider bar */
+    border: none;
+    border-radius: 10px; /* Adjust the border radius */
+    transform: rotate(270deg);
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+    height: 110px;
+    
+  }
+  
+  /* Optional: Style the slider thumb */
+  .scroll-bar::-webkit-slider-thumb {
+    width: 100%; /* Width of the slider thumb */
+    height: 100%; /* Height of the slider thumb */
+    background-color: #22dc01; /* Color of the slider thumb */
+    border: none;
+    
+    border-radius: 50%; /* Make it circular */
+    cursor: pointer;
+  }
+
+  .right-component{
+    margin-top: 54px;
+    height: 2px;
+  }
+  
+  .right-component p {
+    margin-top: 20px;
+    margin-left: -10px;
+    font-weight: bold;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+    color: white;
+    font-size: 30px;
+  }
+  
+  
+  .slider {
+    background-color: #22dc01;
+    width: 70px;
+    height: 400px; /* Adjust the height as needed */
+    position: relative;
+    transform: rotate(0deg); /* Rotate the slider to make it vertical */
+    transform-origin: center; /* Rotate around the center */
+    -webkit-appearance: slider-vertical; /* For browser compatibility */
+    appearance: slider-vertical; /* For browser compatibility */
+    margin-top: 40px;
+  }
+  
+  .slider::-webkit-slider-runnable-track {
+    width: 65px;
+    align-items: left;
+    height: 100px;
+    background-color:#ffffff;
+    border-radius: 20px;
+    margin-left: -15px;
+    margin-bottom: -20px;
+    /* margin: -30px; */
+    
+  }
+  
+  
+  .slider::-webkit-slider-thumb {
+    width: 400px; /* Adjust the size of the circle */
+    height: 600px; /* Adjust the size of the circle */
+    background-color: #22dc01; /* Circle color */
+    border: 2px solid #22dc01; /* Circle border color */
+    border-radius: 20%; /* Make it a circle */
+    cursor: pointer;
+    -webkit-appearance: none; /* Remove the default appearance */
+    appearance: none; /* Remove the default appearance */
+    padding: 30px;
+    margin-right: 0px;
+    
+  }
+  
+  
+  
+ 
+  
+  .stand-up-reminder-popup {
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    position: relative;
+    margin-top: 30px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+    margin-right: 200px;
+  }
+  
+  .stand-up-reminder-popup h2 {
+    font-size: 1.5rem;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .stand-up-reminder-popup p {
+    font-size: 1.2rem;
+    color: #666;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+  }
+  
+  .stand-up-reminder-popup label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 5px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+    color: #333;
+  }
+  
+  .stand-up-reminder-popup input {
+    width: 70px;
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+  }
+  
+  .stand-up-reminder-popup button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 1rem;
+    margin-right: 5px;
+    background-color: #007BFF;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .stand-up-reminder-popup button:hover {
+    background-color: #0056b3;
+  }
+  
+  .stand-up-reminder-popup p {
+    margin-top: 15px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+  }
+  
+  .stand-up-reminder-popup p strong {
+    font-weight: bold;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+    color: #007BFF;
+  }
+  
+
+  .stand-up-reminder-popup button.close-button {
+    position: absolute;
+    top: 10px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+    right: 10px;
+    background-color: transparent;
+    color: #333;
+    font-size: 1.2rem;
+    padding: 5px;
+  }
+  
+  .stand-up-reminder-popup button.close-button:hover {
+    color: #007BFF;
+  }
+  
+  
+  
+  /* Style for the music pop-up */
+  .music-popup {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    
+    
+  }
+  
+  .music-popup h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+  }
+  
+  .music-popup ul {
+    list-style: none;
+    padding: 0;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+    font-style: black;
+  }
+  
+  .music-popup ul li {
+    margin: 10px 0;
+    color: #333;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+  }
+  
+  .music-popup button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .music-popup button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .device-selection{
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+    
+  }
+
+.device-selection h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+    margin-top: 0px;
+
+    border-radius: 20px;
+    max-width: 300px;
+    margin-left: 600px;
+  }
+
+  .devices {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 450px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+    
+
+  }
+  
+  .devices button {
+    padding: 40px 50px;
+    font-size: 25px;
+    margin: 5px;
+    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .devices button:hover {
+    background-color: black;
+  }
+  
+
+
+  .gray-background {
+    background-color: gray;
+    
+  }
+  .gray-background::before {
+    content: '';
+    position: absolute;
+    top: 720px;
+    left: 140px;
+    right: 140px;
+    width: 1220px;
+    height: 630px;
+    background-color: rgba(128, 128, 128, 0.7); /* Gray color with some transparency */
+    z-index: 1; /* Ensure the overlay is above the content */
+    clip-path: polygon(0% 0%,99% 0%,100.00% 100.00%,41% 100%,41% 83%,19% 83%,19% 100%,0.00% 100.00%);
+    border-radius: 35px;
+  }
+
+
+.gray-background::after {
+    content: '';
+    position: absolute;
+    top: 1000px; /* Adjust as needed to create the opening */
+    left: 100px; /* Adjust as needed to create the opening */
+    right: 100px; /* Adjust as needed to create the opening */
+    bottom: 1000px; /* Adjust as needed to create the opening */
+    background-color: red; /* Transparent background for the opening */
+    z-index: 2; /* Ensure the opening is above the overlay */
+    pointer-events: none; /* Make the opening non-interactive */
+  }

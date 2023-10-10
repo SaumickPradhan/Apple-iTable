@@ -1,0 +1,99 @@
+:root {
+  font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+  line-height: 1.5;
+  font-weight: 400px;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+/* Styling for the "By Saumick Pradhan" text */
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Styling for the links */
+p a {
+  text-decoration: none;
+  color: blue;
+}
+
+/* Styling for the separator between links */
+p span {
+  margin: 0 5px;
+}
+
+/* Styling for the "Here is the iSmart Graphic" text */
+p:last-child {
+  font-size: 18px;
+  font-style: italic;
+}
+
+
+
+/* Reset some default styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+    font-size: 10px;
+  background-color: #f0f0f0;
+}
+
+div img {
+  display: inline;
+}
+
+/* Style the heading */
+.iTable {
+  text-align: center;
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
+  width: 60%; /* Set a fixed width, adjust as needed */
+  border-radius: 20px;
+  font-size: 60px;
+}
+
+
+/* Style the author name */
+p {
+  text-align: center;
+  font-style: italic;
+  margin: 10px 0;
+}
+
+/* Style the link */
+a {
+  text-decoration: none;
+  color: #007acc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+.instructions{
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.InstH{
+  text-align: center;
+  font-style: italic;
+  margin: 10px 0;
+  font-size: 40px;
+  margin-top: 30px;
+ 
+}
