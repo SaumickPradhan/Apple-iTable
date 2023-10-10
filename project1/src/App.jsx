@@ -37,7 +37,7 @@ let defaultNews = [
   "Health Report\nNew Study Reveals Surprising Benefits of Meditation",
 ];
 
-let defaultUser = "Henry";
+let defaultUser = "Guest";
 
 let defaultIcon = news; 
 
