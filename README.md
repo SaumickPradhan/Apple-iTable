@@ -5,7 +5,10 @@
 
 **Description**
 <br>
-A Javascript React application for a Smart Table, based on the Apple CarPlay OS and iPad OS User Interface. The table can be used by all user profiles. Its main USP is the ability to personalize and customize the experience wit the User's smart mobile device. All the user data from their device will be synced to the table to improve their experience and provide familiarity.\
+A Javascript React application for a Smart Table, based on the Apple CarPlay OS and iPad OS User Interface. The table can be used by all user profiles. Its main USP is the ability to personalize and customize the experience wit the User's smart mobile device. All the user data from their device will be synced to the table to improve their experience and provide familiarity.
+
+**Video Presentation**
+https://youtu.be/8Fe_6UhcPd0
 
 
 **Gathering design requirements**
@@ -341,26 +344,26 @@ Feedback from Resident Advisor manager, CS student friend, work from home uncle:
   <summary><b>e) Implementation principles</b></summary>
   <details>
     <summary><b>Consider visual design principles in your design:</b></summary>
-    **i.**	The UI has simplicity in using. All the features and interactive options are clearly laid out. The feature have regularity and in font size, color and other styling.<br>
-**ii.**	The visual hierarchy is similar to an iPad which the user is familiar with. <br>
-**iii.**	Not much learning is required as it has a layout similar to Apple’s other UI (like CarPlay or iPad). This helps in Learnability as there is a continuity in the UI from other platforms<br>
-**iv.**	Proximity of all the 4 productivity apps is seen. Also the controls are well spaced in their own grids.<br>
-**v.**	Color is same throughout and the user is able to familiarize with it quickly. It has a similar interface to some of the other Apple devices the user knows about.<br>
-**vi.**	Controls are visually represented and easy to access. They provide feedback for every interaction.<br>
+    i.The UI has simplicity in using. All the features and interactive options are clearly laid out. The feature have regularity and in font size, color and other styling.<br>
+ii.	The visual hierarchy is similar to an iPad which the user is familiar with. <br>
+iii.	Not much learning is required as it has a layout similar to Apple’s other UI (like CarPlay or iPad). This helps in Learnability as there is a continuity in the UI from other platforms<br>
+iv.	Proximity of all the 4 productivity apps is seen. Also the controls are well spaced in their own grids.<br>
+v.	Color is same throughout and the user is able to familiarize with it quickly. It has a similar interface to some of the other Apple devices the user knows about.<br>
+vi.	Controls are visually represented and easy to access. They provide feedback for every interaction.<br>
   </details>
 
   <details>
     <summary><b>Provide appropriate feedback for interactions</b></summary>
-   ** i.	For this Mock UI, the user already knows what to click as the controls, apps, sliders, etc. as familiar.<br>
-**ii.**	Drop down menus and windows are interactable with feedback<br>
-**iii.**	The username can be seen at the top<br>
-**iv.**	The buttons have a different click arrow.<br>
+i For this Mock UI, the user already knows what to click as the controls, apps, sliders, etc. as familiar.<br>
+ii.	Drop down menus and windows are interactable with feedback<br>
+iii.	The username can be seen at the top<br>
+iv.	The buttons have a different click arrow.<br>
   </details>
 
    <details>
     <summary><b>Elements should be clearly laid out.  Your interface for the smart object should have fixed dimensions (non-resizing, non-responsive layout) with size and aspect ratio that is appropriate for your object.</b></summary>
-  ** i.**	The mock UI handles resizing.<br>
-**ii.**	Boundaries are clearly laid out on the webpage.   <br>
+  i.The mock UI handles resizing.<br>
+ii.	Boundaries are clearly laid out on the webpage.   <br>
 
   </details>
 </details>
