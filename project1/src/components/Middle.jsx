@@ -52,7 +52,7 @@ function Middle({ onClose }) {
       <p>Work Time: 25 minutes</p>
       <p>Break Time: 5 minutes</p>
       <button onClick={startTimer}>Start Timer</button>
-      <button onClick={onClose}>Exit</button>
+      <button onClick={onClose}>Close</button>
       <p>
         {isWorking ? 'Work Time:' : 'Break Time:'} {minutes}m {seconds > 0 ? `${seconds}s` : 'Time is up!'}
       </p>

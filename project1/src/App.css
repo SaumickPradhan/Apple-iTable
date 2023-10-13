@@ -301,8 +301,9 @@ font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
   .div4 .circle {
     width: 140px;
       height: 140px;
-      background-color: #e67e22;
+      background-color: rgb(77, 207, 81);
       border-radius: 50%;
+      padding: 3.5px;
   
   }
   
@@ -398,7 +399,8 @@ font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
     background: none;
     border: none;
     cursor: pointer;
-    padding: 0;
+    padding: 5px;
+    color: black;
   }
   
   /* Styles for the popup overlay */
