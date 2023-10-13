@@ -1,6 +1,12 @@
 # Apple-iTable
 
 **An Interactive UI/UX for a conceptual Smart Table designed by Apple**
+<img width="942" alt="image" src="https://github.com/SaumickPradhan/Apple-iTable/assets/85262444/a56473df-12b9-42a0-ac81-1063c9e85204">
+
+**Description**
+<br>
+A Javascript React application for a Smart Table, based on the Apple CarPlay OS and iPad OS User Interface. The table can be used by all user profiles. Its main USP is the ability to personalize and customize the experience wit the User's smart mobile device. All the user data from their device will be synced to the table to improve their experience and provide familiarity.\
+
 
 **Gathering design requirements**
 
@@ -401,6 +407,90 @@ Feedback was to display a message that the data has been synced and the user pro
   </details>
   
 </details>
+
+**Interface Description**
+  <details>
+    <summary><b>External Hardware Interface</b></summary>
+    The UI will be on a screen on the bottom right corner (like an iPad) and the magsafe chargers will be on the top right to connect and charge the 3 devices.
+    <br>
+    
+  <img width="871" alt="image" src="https://github.com/SaumickPradhan/Apple-iTable/assets/85262444/01cd74a7-0439-4c67-93ca-1ae868d5570f">
+</details>
+
+
+  <details>
+  <summary><b>Software Interface</b></summary>
+    Here is the UI for the display.
+  <img width="1319" alt="image" src="https://github.com/SaumickPradhan/Apple-iTable/assets/85262444/a5c372cb-4a47-4761-9443-64b3a249ffad">
+    
+  <details>
+  <summary><b>Left Widget</b></summary>
+    You can see the three devices (phone, smartwatch, earpods) connected with their connection strength and battery progress.
+    
+<img width="215" alt="image" src="https://github.com/SaumickPradhan/Apple-iTable/assets/85262444/595c10b8-6489-4c46-b277-c72276bba521">
+  </details>
+
+   <details>
+  <summary><b>Top Widget</b></summary>
+    Here is the notification widget. It changes as per user preference (type of notifications)
+    
+<img width="776" alt="image" src="https://github.com/SaumickPradhan/Apple-iTable/assets/85262444/688ef1f6-6f63-449d-b674-95852b347f78">
+
+<img width="763" alt="image" src="https://github.com/SaumickPradhan/Apple-iTable/assets/85262444/d381bfa8-3c0b-4b4d-a51b-b706f3926643">
+
+  </details>
+
+ <details>
+  <summary><b>Productivity Apps</b></summary>
+   You have the Pomodoro Timer App with shows the time as well. The Apple standUp app to give user personalized or customized reminders. The Music App with user personalized or customized playlists, songs add to queue and play options. The notes app which can be changed by user for personalization. You also have a user specific calendar for date and daily tasks.
+    
+<img width="420" alt="image" src="https://github.com/SaumickPradhan/Apple-iTable/assets/85262444/02fb16d6-56d6-4779-a073-13cac6d1be33">
+
+<img width="233" alt="image" src="https://github.com/SaumickPradhan/Apple-iTable/assets/85262444/d970a07a-ac3c-44e7-9cf1-cbcd231d17e2">
+
+<img width="340" alt="image" src="https://github.com/SaumickPradhan/Apple-iTable/assets/85262444/ecb5719d-e65e-4352-9523-a05dfa340bfe">
+
+<img width="160" alt="image" src="https://github.com/SaumickPradhan/Apple-iTable/assets/85262444/99d680e1-4de5-4a6d-92ba-9a4e99f7d79b">
+
+<img width="236" alt="image" src="https://github.com/SaumickPradhan/Apple-iTable/assets/85262444/8dca1489-ce75-4a3a-8adc-01f28876bc3e">
+
+<img width="197" alt="image" src="https://github.com/SaumickPradhan/Apple-iTable/assets/85262444/eca5024f-d170-40c4-bdcc-2229932cfaf2">
+
+<img width="203" alt="image" src="https://github.com/SaumickPradhan/Apple-iTable/assets/85262444/793a6148-7890-4592-8dfe-e085a7d0e70e">
+
+
+  </details>
+
+
+   <details>
+  <summary><b>Right Widget</b></summary>
+   Shows the name of the active user and date and weather. Also has a slider for height adjustment with a reader. The height can be pre set or customized by the user.
+<img width="192" alt="image" src="https://github.com/SaumickPradhan/Apple-iTable/assets/85262444/f06d69dc-04f2-4b1b-abb2-b3eb6c12dd9b">
+  </details>
+
+   <details>
+  <summary><b>Control panel</b></summary>
+Power button turns the display on or off. Select the user by double clicking after authentication.
+     
+  <img width="754" alt="image" src="https://github.com/SaumickPradhan/Apple-iTable/assets/85262444/5956d80f-2f94-4405-adeb-710c9a4fc9b9">
+
+  <img width="1221" alt="image" src="https://github.com/SaumickPradhan/Apple-iTable/assets/85262444/16c4b063-f997-4c6f-9c0f-5e9a04c75daa">
+
+  <img width="428" alt="image" src="https://github.com/SaumickPradhan/Apple-iTable/assets/85262444/fc2c049d-df6f-459c-8bb8-7ee3be8987d2">
+  
+  </details>
+
+
+  <details>
+  <summary><b>External Device Connection</b></summary>
+     Select the active user's device here for authentication with magsage and connectivity
+<img width="804" alt="image" src="https://github.com/SaumickPradhan/Apple-iTable/assets/85262444/a42f39f3-0e65-4870-80ec-144504cf0d44">
+
+  </details>
+  
+  
+  </details>
+
 
 
 
