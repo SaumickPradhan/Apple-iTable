@@ -10,6 +10,9 @@ A Javascript React application for a Smart Table, based on the Apple CarPlay OS 
 **Video Presentation**
 https://youtu.be/8Fe_6UhcPd0
 
+**CHECK IT OUT**
+https://apple-i-table-saumick-pradhan.vercel.app/
+
 
 **Gathering design requirements**
 
